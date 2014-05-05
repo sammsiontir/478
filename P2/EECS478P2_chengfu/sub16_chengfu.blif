@@ -1,0 +1,556 @@
+.model subtractor
+
+.inputs a[0] a[10] a[11] a[12] a[13] a[14] a[15] a[1] a[2] a[3] a[4] a[5] a[6] a[7] a[8] a[9] b[0] b[10] b[11] b[12] b[13] b[14] b[15] b[1] b[2] b[3] b[4] b[5] b[6] b[7] b[8] b[9] 
+
+.outputs s[0] s[10] s[11] s[12] s[13] s[14] s[15] s[1] s[2] s[3] s[4] s[5] s[6] s[7] s[8] s[9] 
+
+.names one
+1
+
+.names a[0] b[0] zero s[0]
+001 1
+010 1
+100 1
+111 1
+
+.names a[10] b[10] s_Bo[9] s[10]
+001 1
+010 1
+100 1
+111 1
+
+.names a[11] b[11] s_Bo[10] s[11]
+001 1
+010 1
+100 1
+111 1
+
+.names a[12] b[12] s_Bo[11] s[12]
+001 1
+010 1
+100 1
+111 1
+
+.names a[13] b[13] s_Bo[12] s[13]
+001 1
+010 1
+100 1
+111 1
+
+.names a[14] b[14] s_Bo[13] s[14]
+001 1
+010 1
+100 1
+111 1
+
+.names a[15] b[15] s_Bo[14] s[15]
+001 1
+010 1
+100 1
+111 1
+
+.names a[1] b[1] s_Bo[0] s[1]
+001 1
+010 1
+100 1
+111 1
+
+.names a[2] b[2] s_Bo[1] s[2]
+001 1
+010 1
+100 1
+111 1
+
+.names a[3] b[3] s_Bo[2] s[3]
+001 1
+010 1
+100 1
+111 1
+
+.names a[4] b[4] s_Bo[3] s[4]
+001 1
+010 1
+100 1
+111 1
+
+.names a[5] b[5] s_Bo[4] s[5]
+001 1
+010 1
+100 1
+111 1
+
+.names a[6] b[6] s_Bo[5] s[6]
+001 1
+010 1
+100 1
+111 1
+
+.names a[7] b[7] s_Bo[6] s[7]
+001 1
+010 1
+100 1
+111 1
+
+.names a[8] b[8] s_Bo[7] s[8]
+001 1
+010 1
+100 1
+111 1
+
+.names a[9] b[9] s_Bo[8] s[9]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[0] b[0] s_AxorB[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[10] b[10] s_AxorB[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[11] b[11] s_AxorB[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[12] b[12] s_AxorB[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[13] b[13] s_AxorB[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[14] b[14] s_AxorB[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[15] b[15] s_AxorB[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[1] b[1] s_AxorB[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[2] b[2] s_AxorB[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[3] b[3] s_AxorB[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[4] b[4] s_AxorB[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[5] b[5] s_AxorB[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[6] b[6] s_AxorB[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[7] b[7] s_AxorB[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[8] b[8] s_AxorB[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[9] b[9] s_AxorB[9]
+001 1
+010 1
+100 1
+111 1
+
+.names s_temp1[0] s_temp2[0] s_Bo[0]
+-1 1
+1- 1
+
+.names s_temp1[10] s_temp2[10] s_Bo[10]
+-1 1
+1- 1
+
+.names s_temp1[11] s_temp2[11] s_Bo[11]
+-1 1
+1- 1
+
+.names s_temp1[12] s_temp2[12] s_Bo[12]
+-1 1
+1- 1
+
+.names s_temp1[13] s_temp2[13] s_Bo[13]
+-1 1
+1- 1
+
+.names s_temp1[14] s_temp2[14] s_Bo[14]
+-1 1
+1- 1
+
+.names s_temp1[15] s_temp2[15] s_Bo[15]
+-1 1
+1- 1
+
+.names s_temp1[1] s_temp2[1] s_Bo[1]
+-1 1
+1- 1
+
+.names s_temp1[2] s_temp2[2] s_Bo[2]
+-1 1
+1- 1
+
+.names s_temp1[3] s_temp2[3] s_Bo[3]
+-1 1
+1- 1
+
+.names s_temp1[4] s_temp2[4] s_Bo[4]
+-1 1
+1- 1
+
+.names s_temp1[5] s_temp2[5] s_Bo[5]
+-1 1
+1- 1
+
+.names s_temp1[6] s_temp2[6] s_Bo[6]
+-1 1
+1- 1
+
+.names s_temp1[7] s_temp2[7] s_Bo[7]
+-1 1
+1- 1
+
+.names s_temp1[8] s_temp2[8] s_Bo[8]
+-1 1
+1- 1
+
+.names s_temp1[9] s_temp2[9] s_Bo[9]
+-1 1
+1- 1
+
+.names zero a[0] one s_notA[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[10] one s_notA[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[11] one s_notA[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[12] one s_notA[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[13] one s_notA[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[14] one s_notA[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[15] one s_notA[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[1] one s_notA[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[2] one s_notA[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[3] one s_notA[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[4] one s_notA[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[5] one s_notA[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[6] one s_notA[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[7] one s_notA[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[8] one s_notA[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[9] one s_notA[9]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[0] one s_notAxorB[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[10] one s_notAxorB[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[11] one s_notAxorB[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[12] one s_notAxorB[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[13] one s_notAxorB[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[14] one s_notAxorB[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[15] one s_notAxorB[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[1] one s_notAxorB[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[2] one s_notAxorB[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[3] one s_notAxorB[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[4] one s_notAxorB[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[5] one s_notAxorB[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[6] one s_notAxorB[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[7] one s_notAxorB[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[8] one s_notAxorB[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[9] one s_notAxorB[9]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_notAxorB[0] s_temp1[0]
+11 1
+
+.names s_Bo[9] s_notAxorB[10] s_temp1[10]
+11 1
+
+.names s_Bo[10] s_notAxorB[11] s_temp1[11]
+11 1
+
+.names s_Bo[11] s_notAxorB[12] s_temp1[12]
+11 1
+
+.names s_Bo[12] s_notAxorB[13] s_temp1[13]
+11 1
+
+.names s_Bo[13] s_notAxorB[14] s_temp1[14]
+11 1
+
+.names s_Bo[14] s_notAxorB[15] s_temp1[15]
+11 1
+
+.names s_Bo[0] s_notAxorB[1] s_temp1[1]
+11 1
+
+.names s_Bo[1] s_notAxorB[2] s_temp1[2]
+11 1
+
+.names s_Bo[2] s_notAxorB[3] s_temp1[3]
+11 1
+
+.names s_Bo[3] s_notAxorB[4] s_temp1[4]
+11 1
+
+.names s_Bo[4] s_notAxorB[5] s_temp1[5]
+11 1
+
+.names s_Bo[5] s_notAxorB[6] s_temp1[6]
+11 1
+
+.names s_Bo[6] s_notAxorB[7] s_temp1[7]
+11 1
+
+.names s_Bo[7] s_notAxorB[8] s_temp1[8]
+11 1
+
+.names s_Bo[8] s_notAxorB[9] s_temp1[9]
+11 1
+
+.names s_notA[0] b[0] s_temp2[0]
+11 1
+
+.names s_notA[10] b[10] s_temp2[10]
+11 1
+
+.names s_notA[11] b[11] s_temp2[11]
+11 1
+
+.names s_notA[12] b[12] s_temp2[12]
+11 1
+
+.names s_notA[13] b[13] s_temp2[13]
+11 1
+
+.names s_notA[14] b[14] s_temp2[14]
+11 1
+
+.names s_notA[15] b[15] s_temp2[15]
+11 1
+
+.names s_notA[1] b[1] s_temp2[1]
+11 1
+
+.names s_notA[2] b[2] s_temp2[2]
+11 1
+
+.names s_notA[3] b[3] s_temp2[3]
+11 1
+
+.names s_notA[4] b[4] s_temp2[4]
+11 1
+
+.names s_notA[5] b[5] s_temp2[5]
+11 1
+
+.names s_notA[6] b[6] s_temp2[6]
+11 1
+
+.names s_notA[7] b[7] s_temp2[7]
+11 1
+
+.names s_notA[8] b[8] s_temp2[8]
+11 1
+
+.names s_notA[9] b[9] s_temp2[9]
+11 1
+
+.names zero
+
+.end

@@ -1,0 +1,42 @@
+usage for binary simulator:
+
+%> ./simulator <blif file> < <input file>
+
+<blif file> is the blif file that you want to simulate.
+<input file> stores the values of the primary inputs.
+
+Example: ./simulator adder16.blif < inputs.txt
+simulates adder16.blif with its primary input values stored in inputs.txt.
+
+After the blif file is read in, the program displays the order at which
+the values of primary inputs should be inputted. This will be in the order
+of the primary inputs in the blif file.
+
+Sample:
+------------------------------------------------------------
+%> ./simulator adder16.blif
+reading adder16.blif...
+adder16.blif successfully read in.
+
+Inputs (in the order of input):
+a[15]...a[0]
+b[15]...b[0]
+cin
+<wait for user input>
+------------------------------------------------------------
+
+The input file should have inputs specified, followed by a new line.
+A sample input file for adder16.blif would look something like:
+
+---------------------
+0101010101010101
+0001011101010111
+1
+---------------------
+
+the first line is a[15]...a[0]
+the second line is b[15]...b[0]
+the third line is cin
+
+
+

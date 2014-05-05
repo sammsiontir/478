@@ -1,0 +1,80 @@
+.model subtractor
+
+.inputs a[0] a[1] b[0] b[1] 
+
+.outputs s[0] s[1] 
+
+.names one
+1
+
+.names a[0] b[0] zero s[0]
+001 1
+010 1
+100 1
+111 1
+
+.names a[1] b[1] s_Bo[0] s[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[0] b[0] s_AxorB[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[1] b[1] s_AxorB[1]
+001 1
+010 1
+100 1
+111 1
+
+.names s_temp1[0] s_temp2[0] s_Bo[0]
+-1 1
+1- 1
+
+.names s_temp1[1] s_temp2[1] s_Bo[1]
+-1 1
+1- 1
+
+.names zero a[0] one s_notA[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[1] one s_notA[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[0] one s_notAxorB[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_AxorB[1] one s_notAxorB[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero s_notAxorB[0] s_temp1[0]
+11 1
+
+.names s_Bo[0] s_notAxorB[1] s_temp1[1]
+11 1
+
+.names s_notA[0] b[0] s_temp2[0]
+11 1
+
+.names s_notA[1] b[1] s_temp2[1]
+11 1
+
+.names zero
+
+.end

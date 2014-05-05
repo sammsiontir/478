@@ -1,0 +1,3088 @@
+.model ABS(MIN(5X_3Y))
+
+.inputs x[0] x[10] x[11] x[12] x[13] x[14] x[15] x[1] x[2] x[3] x[4] x[5] x[6] x[7] x[8] x[9] y[0] y[10] y[11] y[12] y[13] y[14] y[15] y[1] y[2] y[3] y[4] y[5] y[6] y[7] y[8] y[9] 
+
+.outputs z[0] z[10] z[11] z[12] z[13] z[14] z[15] z[16] z[17] z[18] z[1] z[2] z[3] z[4] z[5] z[6] z[7] z[8] z[9] 
+
+.names ZERO
+
+.names ZERO_19[0]
+
+.names ZERO_19[10]
+
+.names ZERO_19[11]
+
+.names ZERO_19[12]
+
+.names ZERO_19[13]
+
+.names ZERO_19[14]
+
+.names ZERO_19[15]
+
+.names ZERO_19[16]
+
+.names ZERO_19[17]
+
+.names ZERO_19[18]
+
+.names ZERO_19[1]
+
+.names ZERO_19[2]
+
+.names ZERO_19[3]
+
+.names ZERO_19[4]
+
+.names ZERO_19[5]
+
+.names ZERO_19[6]
+
+.names ZERO_19[7]
+
+.names ZERO_19[8]
+
+.names ZERO_19[9]
+
+.names one
+1
+
+.names x_5X[18] y_3Y[18] sel1
+-1 1
+1- 1
+
+.names z_5X-3Y[18] sel2
+1 1
+
+.names x[15] x[16]
+1 1
+
+.names x[15] x[17]
+1 1
+
+.names x[15] x[18]
+1 1
+
+.names ZERO_19[0] x_5X[0] zero x_-5X[0]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[10] x_5X[10] x_-5X_Bo[9] x_-5X[10]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[11] x_5X[11] x_-5X_Bo[10] x_-5X[11]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[12] x_5X[12] x_-5X_Bo[11] x_-5X[12]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[13] x_5X[13] x_-5X_Bo[12] x_-5X[13]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[14] x_5X[14] x_-5X_Bo[13] x_-5X[14]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[15] x_5X[15] x_-5X_Bo[14] x_-5X[15]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[16] x_5X[16] x_-5X_Bo[15] x_-5X[16]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[17] x_5X[17] x_-5X_Bo[16] x_-5X[17]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[18] x_5X[18] x_-5X_Bo[17] x_-5X[18]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[1] x_5X[1] x_-5X_Bo[0] x_-5X[1]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[2] x_5X[2] x_-5X_Bo[1] x_-5X[2]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[3] x_5X[3] x_-5X_Bo[2] x_-5X[3]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[4] x_5X[4] x_-5X_Bo[3] x_-5X[4]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[5] x_5X[5] x_-5X_Bo[4] x_-5X[5]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[6] x_5X[6] x_-5X_Bo[5] x_-5X[6]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[7] x_5X[7] x_-5X_Bo[6] x_-5X[7]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[8] x_5X[8] x_-5X_Bo[7] x_-5X[8]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[9] x_5X[9] x_-5X_Bo[8] x_-5X[9]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[0] x_5X[0] x_-5X_AxorB[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[10] x_5X[10] x_-5X_AxorB[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[11] x_5X[11] x_-5X_AxorB[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[12] x_5X[12] x_-5X_AxorB[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[13] x_5X[13] x_-5X_AxorB[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[14] x_5X[14] x_-5X_AxorB[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[15] x_5X[15] x_-5X_AxorB[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[16] x_5X[16] x_-5X_AxorB[16]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[17] x_5X[17] x_-5X_AxorB[17]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[18] x_5X[18] x_-5X_AxorB[18]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[1] x_5X[1] x_-5X_AxorB[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[2] x_5X[2] x_-5X_AxorB[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[3] x_5X[3] x_-5X_AxorB[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[4] x_5X[4] x_-5X_AxorB[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[5] x_5X[5] x_-5X_AxorB[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[6] x_5X[6] x_-5X_AxorB[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[7] x_5X[7] x_-5X_AxorB[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[8] x_5X[8] x_-5X_AxorB[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[9] x_5X[9] x_-5X_AxorB[9]
+001 1
+010 1
+100 1
+111 1
+
+.names x_-5X_temp1[0] x_-5X_temp2[0] x_-5X_Bo[0]
+-1 1
+1- 1
+
+.names x_-5X_temp1[10] x_-5X_temp2[10] x_-5X_Bo[10]
+-1 1
+1- 1
+
+.names x_-5X_temp1[11] x_-5X_temp2[11] x_-5X_Bo[11]
+-1 1
+1- 1
+
+.names x_-5X_temp1[12] x_-5X_temp2[12] x_-5X_Bo[12]
+-1 1
+1- 1
+
+.names x_-5X_temp1[13] x_-5X_temp2[13] x_-5X_Bo[13]
+-1 1
+1- 1
+
+.names x_-5X_temp1[14] x_-5X_temp2[14] x_-5X_Bo[14]
+-1 1
+1- 1
+
+.names x_-5X_temp1[15] x_-5X_temp2[15] x_-5X_Bo[15]
+-1 1
+1- 1
+
+.names x_-5X_temp1[16] x_-5X_temp2[16] x_-5X_Bo[16]
+-1 1
+1- 1
+
+.names x_-5X_temp1[17] x_-5X_temp2[17] x_-5X_Bo[17]
+-1 1
+1- 1
+
+.names x_-5X_temp1[18] x_-5X_temp2[18] x_-5X_Bo[18]
+-1 1
+1- 1
+
+.names x_-5X_temp1[1] x_-5X_temp2[1] x_-5X_Bo[1]
+-1 1
+1- 1
+
+.names x_-5X_temp1[2] x_-5X_temp2[2] x_-5X_Bo[2]
+-1 1
+1- 1
+
+.names x_-5X_temp1[3] x_-5X_temp2[3] x_-5X_Bo[3]
+-1 1
+1- 1
+
+.names x_-5X_temp1[4] x_-5X_temp2[4] x_-5X_Bo[4]
+-1 1
+1- 1
+
+.names x_-5X_temp1[5] x_-5X_temp2[5] x_-5X_Bo[5]
+-1 1
+1- 1
+
+.names x_-5X_temp1[6] x_-5X_temp2[6] x_-5X_Bo[6]
+-1 1
+1- 1
+
+.names x_-5X_temp1[7] x_-5X_temp2[7] x_-5X_Bo[7]
+-1 1
+1- 1
+
+.names x_-5X_temp1[8] x_-5X_temp2[8] x_-5X_Bo[8]
+-1 1
+1- 1
+
+.names x_-5X_temp1[9] x_-5X_temp2[9] x_-5X_Bo[9]
+-1 1
+1- 1
+
+.names zero ZERO_19[0] one x_-5X_notA[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[10] one x_-5X_notA[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[11] one x_-5X_notA[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[12] one x_-5X_notA[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[13] one x_-5X_notA[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[14] one x_-5X_notA[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[15] one x_-5X_notA[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[16] one x_-5X_notA[16]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[17] one x_-5X_notA[17]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[18] one x_-5X_notA[18]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[1] one x_-5X_notA[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[2] one x_-5X_notA[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[3] one x_-5X_notA[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[4] one x_-5X_notA[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[5] one x_-5X_notA[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[6] one x_-5X_notA[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[7] one x_-5X_notA[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[8] one x_-5X_notA[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[9] one x_-5X_notA[9]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[0] one x_-5X_notAxorB[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[10] one x_-5X_notAxorB[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[11] one x_-5X_notAxorB[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[12] one x_-5X_notAxorB[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[13] one x_-5X_notAxorB[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[14] one x_-5X_notAxorB[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[15] one x_-5X_notAxorB[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[16] one x_-5X_notAxorB[16]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[17] one x_-5X_notAxorB[17]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[18] one x_-5X_notAxorB[18]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[1] one x_-5X_notAxorB[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[2] one x_-5X_notAxorB[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[3] one x_-5X_notAxorB[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[4] one x_-5X_notAxorB[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[5] one x_-5X_notAxorB[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[6] one x_-5X_notAxorB[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[7] one x_-5X_notAxorB[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[8] one x_-5X_notAxorB[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_AxorB[9] one x_-5X_notAxorB[9]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_-5X_notAxorB[0] x_-5X_temp1[0]
+11 1
+
+.names x_-5X_Bo[9] x_-5X_notAxorB[10] x_-5X_temp1[10]
+11 1
+
+.names x_-5X_Bo[10] x_-5X_notAxorB[11] x_-5X_temp1[11]
+11 1
+
+.names x_-5X_Bo[11] x_-5X_notAxorB[12] x_-5X_temp1[12]
+11 1
+
+.names x_-5X_Bo[12] x_-5X_notAxorB[13] x_-5X_temp1[13]
+11 1
+
+.names x_-5X_Bo[13] x_-5X_notAxorB[14] x_-5X_temp1[14]
+11 1
+
+.names x_-5X_Bo[14] x_-5X_notAxorB[15] x_-5X_temp1[15]
+11 1
+
+.names x_-5X_Bo[15] x_-5X_notAxorB[16] x_-5X_temp1[16]
+11 1
+
+.names x_-5X_Bo[16] x_-5X_notAxorB[17] x_-5X_temp1[17]
+11 1
+
+.names x_-5X_Bo[17] x_-5X_notAxorB[18] x_-5X_temp1[18]
+11 1
+
+.names x_-5X_Bo[0] x_-5X_notAxorB[1] x_-5X_temp1[1]
+11 1
+
+.names x_-5X_Bo[1] x_-5X_notAxorB[2] x_-5X_temp1[2]
+11 1
+
+.names x_-5X_Bo[2] x_-5X_notAxorB[3] x_-5X_temp1[3]
+11 1
+
+.names x_-5X_Bo[3] x_-5X_notAxorB[4] x_-5X_temp1[4]
+11 1
+
+.names x_-5X_Bo[4] x_-5X_notAxorB[5] x_-5X_temp1[5]
+11 1
+
+.names x_-5X_Bo[5] x_-5X_notAxorB[6] x_-5X_temp1[6]
+11 1
+
+.names x_-5X_Bo[6] x_-5X_notAxorB[7] x_-5X_temp1[7]
+11 1
+
+.names x_-5X_Bo[7] x_-5X_notAxorB[8] x_-5X_temp1[8]
+11 1
+
+.names x_-5X_Bo[8] x_-5X_notAxorB[9] x_-5X_temp1[9]
+11 1
+
+.names x_-5X_notA[0] x_5X[0] x_-5X_temp2[0]
+11 1
+
+.names x_-5X_notA[10] x_5X[10] x_-5X_temp2[10]
+11 1
+
+.names x_-5X_notA[11] x_5X[11] x_-5X_temp2[11]
+11 1
+
+.names x_-5X_notA[12] x_5X[12] x_-5X_temp2[12]
+11 1
+
+.names x_-5X_notA[13] x_5X[13] x_-5X_temp2[13]
+11 1
+
+.names x_-5X_notA[14] x_5X[14] x_-5X_temp2[14]
+11 1
+
+.names x_-5X_notA[15] x_5X[15] x_-5X_temp2[15]
+11 1
+
+.names x_-5X_notA[16] x_5X[16] x_-5X_temp2[16]
+11 1
+
+.names x_-5X_notA[17] x_5X[17] x_-5X_temp2[17]
+11 1
+
+.names x_-5X_notA[18] x_5X[18] x_-5X_temp2[18]
+11 1
+
+.names x_-5X_notA[1] x_5X[1] x_-5X_temp2[1]
+11 1
+
+.names x_-5X_notA[2] x_5X[2] x_-5X_temp2[2]
+11 1
+
+.names x_-5X_notA[3] x_5X[3] x_-5X_temp2[3]
+11 1
+
+.names x_-5X_notA[4] x_5X[4] x_-5X_temp2[4]
+11 1
+
+.names x_-5X_notA[5] x_5X[5] x_-5X_temp2[5]
+11 1
+
+.names x_-5X_notA[6] x_5X[6] x_-5X_temp2[6]
+11 1
+
+.names x_-5X_notA[7] x_5X[7] x_-5X_temp2[7]
+11 1
+
+.names x_-5X_notA[8] x_5X[8] x_-5X_temp2[8]
+11 1
+
+.names x_-5X_notA[9] x_5X[9] x_-5X_temp2[9]
+11 1
+
+.names ZERO x_4X[0]
+1 1
+
+.names x[8] x_4X[10]
+1 1
+
+.names x[9] x_4X[11]
+1 1
+
+.names x[10] x_4X[12]
+1 1
+
+.names x[11] x_4X[13]
+1 1
+
+.names x[12] x_4X[14]
+1 1
+
+.names x[13] x_4X[15]
+1 1
+
+.names x[14] x_4X[16]
+1 1
+
+.names x[15] x_4X[17]
+1 1
+
+.names x[16] x_4X[18]
+1 1
+
+.names x[17] x_4X[19]
+1 1
+
+.names ZERO x_4X[1]
+1 1
+
+.names x[18] x_4X[20]
+1 1
+
+.names x[0] x_4X[2]
+1 1
+
+.names x[1] x_4X[3]
+1 1
+
+.names x[2] x_4X[4]
+1 1
+
+.names x[3] x_4X[5]
+1 1
+
+.names x[4] x_4X[6]
+1 1
+
+.names x[5] x_4X[7]
+1 1
+
+.names x[6] x_4X[8]
+1 1
+
+.names x[7] x_4X[9]
+1 1
+
+.names x[0] x_4X[0] ZERO x_5X[0]
+001 1
+010 1
+100 1
+111 1
+
+.names x[10] x_4X[10] x_5X_c[9] x_5X[10]
+001 1
+010 1
+100 1
+111 1
+
+.names x[11] x_4X[11] x_5X_c[10] x_5X[11]
+001 1
+010 1
+100 1
+111 1
+
+.names x[12] x_4X[12] x_5X_c[11] x_5X[12]
+001 1
+010 1
+100 1
+111 1
+
+.names x[13] x_4X[13] x_5X_c[12] x_5X[13]
+001 1
+010 1
+100 1
+111 1
+
+.names x[14] x_4X[14] x_5X_c[13] x_5X[14]
+001 1
+010 1
+100 1
+111 1
+
+.names x[15] x_4X[15] x_5X_c[14] x_5X[15]
+001 1
+010 1
+100 1
+111 1
+
+.names x[16] x_4X[16] x_5X_c[15] x_5X[16]
+001 1
+010 1
+100 1
+111 1
+
+.names x[17] x_4X[17] x_5X_c[16] x_5X[17]
+001 1
+010 1
+100 1
+111 1
+
+.names x[18] x_4X[18] x_5X_c[17] x_5X[18]
+001 1
+010 1
+100 1
+111 1
+
+.names x[1] x_4X[1] x_5X_c[0] x_5X[1]
+001 1
+010 1
+100 1
+111 1
+
+.names x[2] x_4X[2] x_5X_c[1] x_5X[2]
+001 1
+010 1
+100 1
+111 1
+
+.names x[3] x_4X[3] x_5X_c[2] x_5X[3]
+001 1
+010 1
+100 1
+111 1
+
+.names x[4] x_4X[4] x_5X_c[3] x_5X[4]
+001 1
+010 1
+100 1
+111 1
+
+.names x[5] x_4X[5] x_5X_c[4] x_5X[5]
+001 1
+010 1
+100 1
+111 1
+
+.names x[6] x_4X[6] x_5X_c[5] x_5X[6]
+001 1
+010 1
+100 1
+111 1
+
+.names x[7] x_4X[7] x_5X_c[6] x_5X[7]
+001 1
+010 1
+100 1
+111 1
+
+.names x[8] x_4X[8] x_5X_c[7] x_5X[8]
+001 1
+010 1
+100 1
+111 1
+
+.names x[9] x_4X[9] x_5X_c[8] x_5X[9]
+001 1
+010 1
+100 1
+111 1
+
+.names x[0] x_4X[0] x_5X_AB[0]
+11 1
+
+.names x[10] x_4X[10] x_5X_AB[10]
+11 1
+
+.names x[11] x_4X[11] x_5X_AB[11]
+11 1
+
+.names x[12] x_4X[12] x_5X_AB[12]
+11 1
+
+.names x[13] x_4X[13] x_5X_AB[13]
+11 1
+
+.names x[14] x_4X[14] x_5X_AB[14]
+11 1
+
+.names x[15] x_4X[15] x_5X_AB[15]
+11 1
+
+.names x[16] x_4X[16] x_5X_AB[16]
+11 1
+
+.names x[17] x_4X[17] x_5X_AB[17]
+11 1
+
+.names x[18] x_4X[18] x_5X_AB[18]
+11 1
+
+.names x[1] x_4X[1] x_5X_AB[1]
+11 1
+
+.names x[2] x_4X[2] x_5X_AB[2]
+11 1
+
+.names x[3] x_4X[3] x_5X_AB[3]
+11 1
+
+.names x[4] x_4X[4] x_5X_AB[4]
+11 1
+
+.names x[5] x_4X[5] x_5X_AB[5]
+11 1
+
+.names x[6] x_4X[6] x_5X_AB[6]
+11 1
+
+.names x[7] x_4X[7] x_5X_AB[7]
+11 1
+
+.names x[8] x_4X[8] x_5X_AB[8]
+11 1
+
+.names x[9] x_4X[9] x_5X_AB[9]
+11 1
+
+.names zero x[0] x_4X[0] x_5X_AxorB[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[10] x_4X[10] x_5X_AxorB[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[11] x_4X[11] x_5X_AxorB[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[12] x_4X[12] x_5X_AxorB[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[13] x_4X[13] x_5X_AxorB[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[14] x_4X[14] x_5X_AxorB[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[15] x_4X[15] x_5X_AxorB[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[16] x_4X[16] x_5X_AxorB[16]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[17] x_4X[17] x_5X_AxorB[17]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[18] x_4X[18] x_5X_AxorB[18]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[1] x_4X[1] x_5X_AxorB[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[2] x_4X[2] x_5X_AxorB[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[3] x_4X[3] x_5X_AxorB[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[4] x_4X[4] x_5X_AxorB[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[5] x_4X[5] x_5X_AxorB[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[6] x_4X[6] x_5X_AxorB[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[7] x_4X[7] x_5X_AxorB[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[8] x_4X[8] x_5X_AxorB[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x[9] x_4X[9] x_5X_AxorB[9]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X_AB[0] x_5X_ciAxorB[0] x_5X_c[0]
+-1 1
+1- 1
+
+.names x_5X_AB[10] x_5X_ciAxorB[10] x_5X_c[10]
+-1 1
+1- 1
+
+.names x_5X_AB[11] x_5X_ciAxorB[11] x_5X_c[11]
+-1 1
+1- 1
+
+.names x_5X_AB[12] x_5X_ciAxorB[12] x_5X_c[12]
+-1 1
+1- 1
+
+.names x_5X_AB[13] x_5X_ciAxorB[13] x_5X_c[13]
+-1 1
+1- 1
+
+.names x_5X_AB[14] x_5X_ciAxorB[14] x_5X_c[14]
+-1 1
+1- 1
+
+.names x_5X_AB[15] x_5X_ciAxorB[15] x_5X_c[15]
+-1 1
+1- 1
+
+.names x_5X_AB[16] x_5X_ciAxorB[16] x_5X_c[16]
+-1 1
+1- 1
+
+.names x_5X_AB[17] x_5X_ciAxorB[17] x_5X_c[17]
+-1 1
+1- 1
+
+.names x_5X_AB[1] x_5X_ciAxorB[1] x_5X_c[1]
+-1 1
+1- 1
+
+.names x_5X_AB[2] x_5X_ciAxorB[2] x_5X_c[2]
+-1 1
+1- 1
+
+.names x_5X_AB[3] x_5X_ciAxorB[3] x_5X_c[3]
+-1 1
+1- 1
+
+.names x_5X_AB[4] x_5X_ciAxorB[4] x_5X_c[4]
+-1 1
+1- 1
+
+.names x_5X_AB[5] x_5X_ciAxorB[5] x_5X_c[5]
+-1 1
+1- 1
+
+.names x_5X_AB[6] x_5X_ciAxorB[6] x_5X_c[6]
+-1 1
+1- 1
+
+.names x_5X_AB[7] x_5X_ciAxorB[7] x_5X_c[7]
+-1 1
+1- 1
+
+.names x_5X_AB[8] x_5X_ciAxorB[8] x_5X_c[8]
+-1 1
+1- 1
+
+.names x_5X_AB[9] x_5X_ciAxorB[9] x_5X_c[9]
+-1 1
+1- 1
+
+.names ZERO x_5X_AxorB[0] x_5X_ciAxorB[0]
+11 1
+
+.names x_5X_c[9] x_5X_AxorB[10] x_5X_ciAxorB[10]
+11 1
+
+.names x_5X_c[10] x_5X_AxorB[11] x_5X_ciAxorB[11]
+11 1
+
+.names x_5X_c[11] x_5X_AxorB[12] x_5X_ciAxorB[12]
+11 1
+
+.names x_5X_c[12] x_5X_AxorB[13] x_5X_ciAxorB[13]
+11 1
+
+.names x_5X_c[13] x_5X_AxorB[14] x_5X_ciAxorB[14]
+11 1
+
+.names x_5X_c[14] x_5X_AxorB[15] x_5X_ciAxorB[15]
+11 1
+
+.names x_5X_c[15] x_5X_AxorB[16] x_5X_ciAxorB[16]
+11 1
+
+.names x_5X_c[16] x_5X_AxorB[17] x_5X_ciAxorB[17]
+11 1
+
+.names x_5X_c[17] x_5X_AxorB[18] x_5X_ciAxorB[18]
+11 1
+
+.names x_5X_c[0] x_5X_AxorB[1] x_5X_ciAxorB[1]
+11 1
+
+.names x_5X_c[1] x_5X_AxorB[2] x_5X_ciAxorB[2]
+11 1
+
+.names x_5X_c[2] x_5X_AxorB[3] x_5X_ciAxorB[3]
+11 1
+
+.names x_5X_c[3] x_5X_AxorB[4] x_5X_ciAxorB[4]
+11 1
+
+.names x_5X_c[4] x_5X_AxorB[5] x_5X_ciAxorB[5]
+11 1
+
+.names x_5X_c[5] x_5X_AxorB[6] x_5X_ciAxorB[6]
+11 1
+
+.names x_5X_c[6] x_5X_AxorB[7] x_5X_ciAxorB[7]
+11 1
+
+.names x_5X_c[7] x_5X_AxorB[8] x_5X_ciAxorB[8]
+11 1
+
+.names x_5X_c[8] x_5X_AxorB[9] x_5X_ciAxorB[9]
+11 1
+
+.names x_5X_AB[18] x_5X_ciAxorB[18] x_cout
+-1 1
+1- 1
+
+.names y[15] y[16]
+1 1
+
+.names y[15] y[17]
+1 1
+
+.names y[15] y[18]
+1 1
+
+.names ZERO_19[0] y_3Y[0] zero y_-3Y[0]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[10] y_3Y[10] y_-3Y_Bo[9] y_-3Y[10]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[11] y_3Y[11] y_-3Y_Bo[10] y_-3Y[11]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[12] y_3Y[12] y_-3Y_Bo[11] y_-3Y[12]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[13] y_3Y[13] y_-3Y_Bo[12] y_-3Y[13]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[14] y_3Y[14] y_-3Y_Bo[13] y_-3Y[14]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[15] y_3Y[15] y_-3Y_Bo[14] y_-3Y[15]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[16] y_3Y[16] y_-3Y_Bo[15] y_-3Y[16]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[17] y_3Y[17] y_-3Y_Bo[16] y_-3Y[17]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[18] y_3Y[18] y_-3Y_Bo[17] y_-3Y[18]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[1] y_3Y[1] y_-3Y_Bo[0] y_-3Y[1]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[2] y_3Y[2] y_-3Y_Bo[1] y_-3Y[2]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[3] y_3Y[3] y_-3Y_Bo[2] y_-3Y[3]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[4] y_3Y[4] y_-3Y_Bo[3] y_-3Y[4]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[5] y_3Y[5] y_-3Y_Bo[4] y_-3Y[5]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[6] y_3Y[6] y_-3Y_Bo[5] y_-3Y[6]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[7] y_3Y[7] y_-3Y_Bo[6] y_-3Y[7]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[8] y_3Y[8] y_-3Y_Bo[7] y_-3Y[8]
+001 1
+010 1
+100 1
+111 1
+
+.names ZERO_19[9] y_3Y[9] y_-3Y_Bo[8] y_-3Y[9]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[0] y_3Y[0] y_-3Y_AxorB[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[10] y_3Y[10] y_-3Y_AxorB[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[11] y_3Y[11] y_-3Y_AxorB[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[12] y_3Y[12] y_-3Y_AxorB[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[13] y_3Y[13] y_-3Y_AxorB[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[14] y_3Y[14] y_-3Y_AxorB[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[15] y_3Y[15] y_-3Y_AxorB[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[16] y_3Y[16] y_-3Y_AxorB[16]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[17] y_3Y[17] y_-3Y_AxorB[17]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[18] y_3Y[18] y_-3Y_AxorB[18]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[1] y_3Y[1] y_-3Y_AxorB[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[2] y_3Y[2] y_-3Y_AxorB[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[3] y_3Y[3] y_-3Y_AxorB[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[4] y_3Y[4] y_-3Y_AxorB[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[5] y_3Y[5] y_-3Y_AxorB[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[6] y_3Y[6] y_-3Y_AxorB[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[7] y_3Y[7] y_-3Y_AxorB[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[8] y_3Y[8] y_-3Y_AxorB[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[9] y_3Y[9] y_-3Y_AxorB[9]
+001 1
+010 1
+100 1
+111 1
+
+.names y_-3Y_temp1[0] y_-3Y_temp2[0] y_-3Y_Bo[0]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[10] y_-3Y_temp2[10] y_-3Y_Bo[10]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[11] y_-3Y_temp2[11] y_-3Y_Bo[11]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[12] y_-3Y_temp2[12] y_-3Y_Bo[12]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[13] y_-3Y_temp2[13] y_-3Y_Bo[13]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[14] y_-3Y_temp2[14] y_-3Y_Bo[14]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[15] y_-3Y_temp2[15] y_-3Y_Bo[15]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[16] y_-3Y_temp2[16] y_-3Y_Bo[16]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[17] y_-3Y_temp2[17] y_-3Y_Bo[17]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[18] y_-3Y_temp2[18] y_-3Y_Bo[18]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[1] y_-3Y_temp2[1] y_-3Y_Bo[1]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[2] y_-3Y_temp2[2] y_-3Y_Bo[2]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[3] y_-3Y_temp2[3] y_-3Y_Bo[3]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[4] y_-3Y_temp2[4] y_-3Y_Bo[4]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[5] y_-3Y_temp2[5] y_-3Y_Bo[5]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[6] y_-3Y_temp2[6] y_-3Y_Bo[6]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[7] y_-3Y_temp2[7] y_-3Y_Bo[7]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[8] y_-3Y_temp2[8] y_-3Y_Bo[8]
+-1 1
+1- 1
+
+.names y_-3Y_temp1[9] y_-3Y_temp2[9] y_-3Y_Bo[9]
+-1 1
+1- 1
+
+.names zero ZERO_19[0] one y_-3Y_notA[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[10] one y_-3Y_notA[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[11] one y_-3Y_notA[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[12] one y_-3Y_notA[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[13] one y_-3Y_notA[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[14] one y_-3Y_notA[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[15] one y_-3Y_notA[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[16] one y_-3Y_notA[16]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[17] one y_-3Y_notA[17]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[18] one y_-3Y_notA[18]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[1] one y_-3Y_notA[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[2] one y_-3Y_notA[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[3] one y_-3Y_notA[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[4] one y_-3Y_notA[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[5] one y_-3Y_notA[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[6] one y_-3Y_notA[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[7] one y_-3Y_notA[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[8] one y_-3Y_notA[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero ZERO_19[9] one y_-3Y_notA[9]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[0] one y_-3Y_notAxorB[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[10] one y_-3Y_notAxorB[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[11] one y_-3Y_notAxorB[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[12] one y_-3Y_notAxorB[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[13] one y_-3Y_notAxorB[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[14] one y_-3Y_notAxorB[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[15] one y_-3Y_notAxorB[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[16] one y_-3Y_notAxorB[16]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[17] one y_-3Y_notAxorB[17]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[18] one y_-3Y_notAxorB[18]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[1] one y_-3Y_notAxorB[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[2] one y_-3Y_notAxorB[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[3] one y_-3Y_notAxorB[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[4] one y_-3Y_notAxorB[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[5] one y_-3Y_notAxorB[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[6] one y_-3Y_notAxorB[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[7] one y_-3Y_notAxorB[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[8] one y_-3Y_notAxorB[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_AxorB[9] one y_-3Y_notAxorB[9]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y_-3Y_notAxorB[0] y_-3Y_temp1[0]
+11 1
+
+.names y_-3Y_Bo[9] y_-3Y_notAxorB[10] y_-3Y_temp1[10]
+11 1
+
+.names y_-3Y_Bo[10] y_-3Y_notAxorB[11] y_-3Y_temp1[11]
+11 1
+
+.names y_-3Y_Bo[11] y_-3Y_notAxorB[12] y_-3Y_temp1[12]
+11 1
+
+.names y_-3Y_Bo[12] y_-3Y_notAxorB[13] y_-3Y_temp1[13]
+11 1
+
+.names y_-3Y_Bo[13] y_-3Y_notAxorB[14] y_-3Y_temp1[14]
+11 1
+
+.names y_-3Y_Bo[14] y_-3Y_notAxorB[15] y_-3Y_temp1[15]
+11 1
+
+.names y_-3Y_Bo[15] y_-3Y_notAxorB[16] y_-3Y_temp1[16]
+11 1
+
+.names y_-3Y_Bo[16] y_-3Y_notAxorB[17] y_-3Y_temp1[17]
+11 1
+
+.names y_-3Y_Bo[17] y_-3Y_notAxorB[18] y_-3Y_temp1[18]
+11 1
+
+.names y_-3Y_Bo[0] y_-3Y_notAxorB[1] y_-3Y_temp1[1]
+11 1
+
+.names y_-3Y_Bo[1] y_-3Y_notAxorB[2] y_-3Y_temp1[2]
+11 1
+
+.names y_-3Y_Bo[2] y_-3Y_notAxorB[3] y_-3Y_temp1[3]
+11 1
+
+.names y_-3Y_Bo[3] y_-3Y_notAxorB[4] y_-3Y_temp1[4]
+11 1
+
+.names y_-3Y_Bo[4] y_-3Y_notAxorB[5] y_-3Y_temp1[5]
+11 1
+
+.names y_-3Y_Bo[5] y_-3Y_notAxorB[6] y_-3Y_temp1[6]
+11 1
+
+.names y_-3Y_Bo[6] y_-3Y_notAxorB[7] y_-3Y_temp1[7]
+11 1
+
+.names y_-3Y_Bo[7] y_-3Y_notAxorB[8] y_-3Y_temp1[8]
+11 1
+
+.names y_-3Y_Bo[8] y_-3Y_notAxorB[9] y_-3Y_temp1[9]
+11 1
+
+.names y_-3Y_notA[0] y_3Y[0] y_-3Y_temp2[0]
+11 1
+
+.names y_-3Y_notA[10] y_3Y[10] y_-3Y_temp2[10]
+11 1
+
+.names y_-3Y_notA[11] y_3Y[11] y_-3Y_temp2[11]
+11 1
+
+.names y_-3Y_notA[12] y_3Y[12] y_-3Y_temp2[12]
+11 1
+
+.names y_-3Y_notA[13] y_3Y[13] y_-3Y_temp2[13]
+11 1
+
+.names y_-3Y_notA[14] y_3Y[14] y_-3Y_temp2[14]
+11 1
+
+.names y_-3Y_notA[15] y_3Y[15] y_-3Y_temp2[15]
+11 1
+
+.names y_-3Y_notA[16] y_3Y[16] y_-3Y_temp2[16]
+11 1
+
+.names y_-3Y_notA[17] y_3Y[17] y_-3Y_temp2[17]
+11 1
+
+.names y_-3Y_notA[18] y_3Y[18] y_-3Y_temp2[18]
+11 1
+
+.names y_-3Y_notA[1] y_3Y[1] y_-3Y_temp2[1]
+11 1
+
+.names y_-3Y_notA[2] y_3Y[2] y_-3Y_temp2[2]
+11 1
+
+.names y_-3Y_notA[3] y_3Y[3] y_-3Y_temp2[3]
+11 1
+
+.names y_-3Y_notA[4] y_3Y[4] y_-3Y_temp2[4]
+11 1
+
+.names y_-3Y_notA[5] y_3Y[5] y_-3Y_temp2[5]
+11 1
+
+.names y_-3Y_notA[6] y_3Y[6] y_-3Y_temp2[6]
+11 1
+
+.names y_-3Y_notA[7] y_3Y[7] y_-3Y_temp2[7]
+11 1
+
+.names y_-3Y_notA[8] y_3Y[8] y_-3Y_temp2[8]
+11 1
+
+.names y_-3Y_notA[9] y_3Y[9] y_-3Y_temp2[9]
+11 1
+
+.names ZERO y_2Y[0]
+1 1
+
+.names y[9] y_2Y[10]
+1 1
+
+.names y[10] y_2Y[11]
+1 1
+
+.names y[11] y_2Y[12]
+1 1
+
+.names y[12] y_2Y[13]
+1 1
+
+.names y[13] y_2Y[14]
+1 1
+
+.names y[14] y_2Y[15]
+1 1
+
+.names y[15] y_2Y[16]
+1 1
+
+.names y[16] y_2Y[17]
+1 1
+
+.names y[17] y_2Y[18]
+1 1
+
+.names y[18] y_2Y[19]
+1 1
+
+.names y[0] y_2Y[1]
+1 1
+
+.names y[1] y_2Y[2]
+1 1
+
+.names y[2] y_2Y[3]
+1 1
+
+.names y[3] y_2Y[4]
+1 1
+
+.names y[4] y_2Y[5]
+1 1
+
+.names y[5] y_2Y[6]
+1 1
+
+.names y[6] y_2Y[7]
+1 1
+
+.names y[7] y_2Y[8]
+1 1
+
+.names y[8] y_2Y[9]
+1 1
+
+.names y[0] y_2Y[0] ZERO y_3Y[0]
+001 1
+010 1
+100 1
+111 1
+
+.names y[10] y_2Y[10] y_3Y_c[9] y_3Y[10]
+001 1
+010 1
+100 1
+111 1
+
+.names y[11] y_2Y[11] y_3Y_c[10] y_3Y[11]
+001 1
+010 1
+100 1
+111 1
+
+.names y[12] y_2Y[12] y_3Y_c[11] y_3Y[12]
+001 1
+010 1
+100 1
+111 1
+
+.names y[13] y_2Y[13] y_3Y_c[12] y_3Y[13]
+001 1
+010 1
+100 1
+111 1
+
+.names y[14] y_2Y[14] y_3Y_c[13] y_3Y[14]
+001 1
+010 1
+100 1
+111 1
+
+.names y[15] y_2Y[15] y_3Y_c[14] y_3Y[15]
+001 1
+010 1
+100 1
+111 1
+
+.names y[16] y_2Y[16] y_3Y_c[15] y_3Y[16]
+001 1
+010 1
+100 1
+111 1
+
+.names y[17] y_2Y[17] y_3Y_c[16] y_3Y[17]
+001 1
+010 1
+100 1
+111 1
+
+.names y[18] y_2Y[18] y_3Y_c[17] y_3Y[18]
+001 1
+010 1
+100 1
+111 1
+
+.names y[1] y_2Y[1] y_3Y_c[0] y_3Y[1]
+001 1
+010 1
+100 1
+111 1
+
+.names y[2] y_2Y[2] y_3Y_c[1] y_3Y[2]
+001 1
+010 1
+100 1
+111 1
+
+.names y[3] y_2Y[3] y_3Y_c[2] y_3Y[3]
+001 1
+010 1
+100 1
+111 1
+
+.names y[4] y_2Y[4] y_3Y_c[3] y_3Y[4]
+001 1
+010 1
+100 1
+111 1
+
+.names y[5] y_2Y[5] y_3Y_c[4] y_3Y[5]
+001 1
+010 1
+100 1
+111 1
+
+.names y[6] y_2Y[6] y_3Y_c[5] y_3Y[6]
+001 1
+010 1
+100 1
+111 1
+
+.names y[7] y_2Y[7] y_3Y_c[6] y_3Y[7]
+001 1
+010 1
+100 1
+111 1
+
+.names y[8] y_2Y[8] y_3Y_c[7] y_3Y[8]
+001 1
+010 1
+100 1
+111 1
+
+.names y[9] y_2Y[9] y_3Y_c[8] y_3Y[9]
+001 1
+010 1
+100 1
+111 1
+
+.names y[0] y_2Y[0] y_3Y_AB[0]
+11 1
+
+.names y[10] y_2Y[10] y_3Y_AB[10]
+11 1
+
+.names y[11] y_2Y[11] y_3Y_AB[11]
+11 1
+
+.names y[12] y_2Y[12] y_3Y_AB[12]
+11 1
+
+.names y[13] y_2Y[13] y_3Y_AB[13]
+11 1
+
+.names y[14] y_2Y[14] y_3Y_AB[14]
+11 1
+
+.names y[15] y_2Y[15] y_3Y_AB[15]
+11 1
+
+.names y[16] y_2Y[16] y_3Y_AB[16]
+11 1
+
+.names y[17] y_2Y[17] y_3Y_AB[17]
+11 1
+
+.names y[18] y_2Y[18] y_3Y_AB[18]
+11 1
+
+.names y[1] y_2Y[1] y_3Y_AB[1]
+11 1
+
+.names y[2] y_2Y[2] y_3Y_AB[2]
+11 1
+
+.names y[3] y_2Y[3] y_3Y_AB[3]
+11 1
+
+.names y[4] y_2Y[4] y_3Y_AB[4]
+11 1
+
+.names y[5] y_2Y[5] y_3Y_AB[5]
+11 1
+
+.names y[6] y_2Y[6] y_3Y_AB[6]
+11 1
+
+.names y[7] y_2Y[7] y_3Y_AB[7]
+11 1
+
+.names y[8] y_2Y[8] y_3Y_AB[8]
+11 1
+
+.names y[9] y_2Y[9] y_3Y_AB[9]
+11 1
+
+.names zero y[0] y_2Y[0] y_3Y_AxorB[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[10] y_2Y[10] y_3Y_AxorB[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[11] y_2Y[11] y_3Y_AxorB[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[12] y_2Y[12] y_3Y_AxorB[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[13] y_2Y[13] y_3Y_AxorB[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[14] y_2Y[14] y_3Y_AxorB[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[15] y_2Y[15] y_3Y_AxorB[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[16] y_2Y[16] y_3Y_AxorB[16]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[17] y_2Y[17] y_3Y_AxorB[17]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[18] y_2Y[18] y_3Y_AxorB[18]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[1] y_2Y[1] y_3Y_AxorB[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[2] y_2Y[2] y_3Y_AxorB[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[3] y_2Y[3] y_3Y_AxorB[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[4] y_2Y[4] y_3Y_AxorB[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[5] y_2Y[5] y_3Y_AxorB[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[6] y_2Y[6] y_3Y_AxorB[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[7] y_2Y[7] y_3Y_AxorB[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[8] y_2Y[8] y_3Y_AxorB[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero y[9] y_2Y[9] y_3Y_AxorB[9]
+001 1
+010 1
+100 1
+111 1
+
+.names y_3Y_AB[0] y_3Y_ciAxorB[0] y_3Y_c[0]
+-1 1
+1- 1
+
+.names y_3Y_AB[10] y_3Y_ciAxorB[10] y_3Y_c[10]
+-1 1
+1- 1
+
+.names y_3Y_AB[11] y_3Y_ciAxorB[11] y_3Y_c[11]
+-1 1
+1- 1
+
+.names y_3Y_AB[12] y_3Y_ciAxorB[12] y_3Y_c[12]
+-1 1
+1- 1
+
+.names y_3Y_AB[13] y_3Y_ciAxorB[13] y_3Y_c[13]
+-1 1
+1- 1
+
+.names y_3Y_AB[14] y_3Y_ciAxorB[14] y_3Y_c[14]
+-1 1
+1- 1
+
+.names y_3Y_AB[15] y_3Y_ciAxorB[15] y_3Y_c[15]
+-1 1
+1- 1
+
+.names y_3Y_AB[16] y_3Y_ciAxorB[16] y_3Y_c[16]
+-1 1
+1- 1
+
+.names y_3Y_AB[17] y_3Y_ciAxorB[17] y_3Y_c[17]
+-1 1
+1- 1
+
+.names y_3Y_AB[1] y_3Y_ciAxorB[1] y_3Y_c[1]
+-1 1
+1- 1
+
+.names y_3Y_AB[2] y_3Y_ciAxorB[2] y_3Y_c[2]
+-1 1
+1- 1
+
+.names y_3Y_AB[3] y_3Y_ciAxorB[3] y_3Y_c[3]
+-1 1
+1- 1
+
+.names y_3Y_AB[4] y_3Y_ciAxorB[4] y_3Y_c[4]
+-1 1
+1- 1
+
+.names y_3Y_AB[5] y_3Y_ciAxorB[5] y_3Y_c[5]
+-1 1
+1- 1
+
+.names y_3Y_AB[6] y_3Y_ciAxorB[6] y_3Y_c[6]
+-1 1
+1- 1
+
+.names y_3Y_AB[7] y_3Y_ciAxorB[7] y_3Y_c[7]
+-1 1
+1- 1
+
+.names y_3Y_AB[8] y_3Y_ciAxorB[8] y_3Y_c[8]
+-1 1
+1- 1
+
+.names y_3Y_AB[9] y_3Y_ciAxorB[9] y_3Y_c[9]
+-1 1
+1- 1
+
+.names ZERO y_3Y_AxorB[0] y_3Y_ciAxorB[0]
+11 1
+
+.names y_3Y_c[9] y_3Y_AxorB[10] y_3Y_ciAxorB[10]
+11 1
+
+.names y_3Y_c[10] y_3Y_AxorB[11] y_3Y_ciAxorB[11]
+11 1
+
+.names y_3Y_c[11] y_3Y_AxorB[12] y_3Y_ciAxorB[12]
+11 1
+
+.names y_3Y_c[12] y_3Y_AxorB[13] y_3Y_ciAxorB[13]
+11 1
+
+.names y_3Y_c[13] y_3Y_AxorB[14] y_3Y_ciAxorB[14]
+11 1
+
+.names y_3Y_c[14] y_3Y_AxorB[15] y_3Y_ciAxorB[15]
+11 1
+
+.names y_3Y_c[15] y_3Y_AxorB[16] y_3Y_ciAxorB[16]
+11 1
+
+.names y_3Y_c[16] y_3Y_AxorB[17] y_3Y_ciAxorB[17]
+11 1
+
+.names y_3Y_c[17] y_3Y_AxorB[18] y_3Y_ciAxorB[18]
+11 1
+
+.names y_3Y_c[0] y_3Y_AxorB[1] y_3Y_ciAxorB[1]
+11 1
+
+.names y_3Y_c[1] y_3Y_AxorB[2] y_3Y_ciAxorB[2]
+11 1
+
+.names y_3Y_c[2] y_3Y_AxorB[3] y_3Y_ciAxorB[3]
+11 1
+
+.names y_3Y_c[3] y_3Y_AxorB[4] y_3Y_ciAxorB[4]
+11 1
+
+.names y_3Y_c[4] y_3Y_AxorB[5] y_3Y_ciAxorB[5]
+11 1
+
+.names y_3Y_c[5] y_3Y_AxorB[6] y_3Y_ciAxorB[6]
+11 1
+
+.names y_3Y_c[6] y_3Y_AxorB[7] y_3Y_ciAxorB[7]
+11 1
+
+.names y_3Y_c[7] y_3Y_AxorB[8] y_3Y_ciAxorB[8]
+11 1
+
+.names y_3Y_c[8] y_3Y_AxorB[9] y_3Y_ciAxorB[9]
+11 1
+
+.names y_3Y_AB[18] y_3Y_ciAxorB[18] y_cout
+-1 1
+1- 1
+
+.names sel1 sel2 x_-5X[0] y_-3Y[0] x_5X[0] y_3Y[0] z[0]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[10] y_-3Y[10] x_5X[10] y_3Y[10] z[10]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[11] y_-3Y[11] x_5X[11] y_3Y[11] z[11]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[12] y_-3Y[12] x_5X[12] y_3Y[12] z[12]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[13] y_-3Y[13] x_5X[13] y_3Y[13] z[13]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[14] y_-3Y[14] x_5X[14] y_3Y[14] z[14]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[15] y_-3Y[15] x_5X[15] y_3Y[15] z[15]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[16] y_-3Y[16] x_5X[16] y_3Y[16] z[16]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[17] y_-3Y[17] x_5X[17] y_3Y[17] z[17]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[18] y_-3Y[18] x_5X[18] y_3Y[18] z[18]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[1] y_-3Y[1] x_5X[1] y_3Y[1] z[1]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[2] y_-3Y[2] x_5X[2] y_3Y[2] z[2]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[3] y_-3Y[3] x_5X[3] y_3Y[3] z[3]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[4] y_-3Y[4] x_5X[4] y_3Y[4] z[4]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[5] y_-3Y[5] x_5X[5] y_3Y[5] z[5]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[6] y_-3Y[6] x_5X[6] y_3Y[6] z[6]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[7] y_-3Y[7] x_5X[7] y_3Y[7] z[7]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[8] y_-3Y[8] x_5X[8] y_3Y[8] z[8]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names sel1 sel2 x_-5X[9] y_-3Y[9] x_5X[9] y_3Y[9] z[9]
+00---1 1
+01--1- 1
+10-1-- 1
+111--- 1
+
+.names x_5X[0] y_3Y[0] zero z_5X-3Y[0]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[10] y_3Y[10] z_5X-3Y_Bo[9] z_5X-3Y[10]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[11] y_3Y[11] z_5X-3Y_Bo[10] z_5X-3Y[11]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[12] y_3Y[12] z_5X-3Y_Bo[11] z_5X-3Y[12]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[13] y_3Y[13] z_5X-3Y_Bo[12] z_5X-3Y[13]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[14] y_3Y[14] z_5X-3Y_Bo[13] z_5X-3Y[14]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[15] y_3Y[15] z_5X-3Y_Bo[14] z_5X-3Y[15]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[16] y_3Y[16] z_5X-3Y_Bo[15] z_5X-3Y[16]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[17] y_3Y[17] z_5X-3Y_Bo[16] z_5X-3Y[17]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[18] y_3Y[18] z_5X-3Y_Bo[17] z_5X-3Y[18]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[1] y_3Y[1] z_5X-3Y_Bo[0] z_5X-3Y[1]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[2] y_3Y[2] z_5X-3Y_Bo[1] z_5X-3Y[2]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[3] y_3Y[3] z_5X-3Y_Bo[2] z_5X-3Y[3]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[4] y_3Y[4] z_5X-3Y_Bo[3] z_5X-3Y[4]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[5] y_3Y[5] z_5X-3Y_Bo[4] z_5X-3Y[5]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[6] y_3Y[6] z_5X-3Y_Bo[5] z_5X-3Y[6]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[7] y_3Y[7] z_5X-3Y_Bo[6] z_5X-3Y[7]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[8] y_3Y[8] z_5X-3Y_Bo[7] z_5X-3Y[8]
+001 1
+010 1
+100 1
+111 1
+
+.names x_5X[9] y_3Y[9] z_5X-3Y_Bo[8] z_5X-3Y[9]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[0] y_3Y[0] z_5X-3Y_AxorB[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[10] y_3Y[10] z_5X-3Y_AxorB[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[11] y_3Y[11] z_5X-3Y_AxorB[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[12] y_3Y[12] z_5X-3Y_AxorB[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[13] y_3Y[13] z_5X-3Y_AxorB[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[14] y_3Y[14] z_5X-3Y_AxorB[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[15] y_3Y[15] z_5X-3Y_AxorB[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[16] y_3Y[16] z_5X-3Y_AxorB[16]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[17] y_3Y[17] z_5X-3Y_AxorB[17]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[18] y_3Y[18] z_5X-3Y_AxorB[18]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[1] y_3Y[1] z_5X-3Y_AxorB[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[2] y_3Y[2] z_5X-3Y_AxorB[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[3] y_3Y[3] z_5X-3Y_AxorB[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[4] y_3Y[4] z_5X-3Y_AxorB[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[5] y_3Y[5] z_5X-3Y_AxorB[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[6] y_3Y[6] z_5X-3Y_AxorB[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[7] y_3Y[7] z_5X-3Y_AxorB[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[8] y_3Y[8] z_5X-3Y_AxorB[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[9] y_3Y[9] z_5X-3Y_AxorB[9]
+001 1
+010 1
+100 1
+111 1
+
+.names z_5X-3Y_temp1[0] z_5X-3Y_temp2[0] z_5X-3Y_Bo[0]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[10] z_5X-3Y_temp2[10] z_5X-3Y_Bo[10]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[11] z_5X-3Y_temp2[11] z_5X-3Y_Bo[11]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[12] z_5X-3Y_temp2[12] z_5X-3Y_Bo[12]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[13] z_5X-3Y_temp2[13] z_5X-3Y_Bo[13]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[14] z_5X-3Y_temp2[14] z_5X-3Y_Bo[14]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[15] z_5X-3Y_temp2[15] z_5X-3Y_Bo[15]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[16] z_5X-3Y_temp2[16] z_5X-3Y_Bo[16]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[17] z_5X-3Y_temp2[17] z_5X-3Y_Bo[17]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[18] z_5X-3Y_temp2[18] z_5X-3Y_Bo[18]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[1] z_5X-3Y_temp2[1] z_5X-3Y_Bo[1]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[2] z_5X-3Y_temp2[2] z_5X-3Y_Bo[2]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[3] z_5X-3Y_temp2[3] z_5X-3Y_Bo[3]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[4] z_5X-3Y_temp2[4] z_5X-3Y_Bo[4]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[5] z_5X-3Y_temp2[5] z_5X-3Y_Bo[5]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[6] z_5X-3Y_temp2[6] z_5X-3Y_Bo[6]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[7] z_5X-3Y_temp2[7] z_5X-3Y_Bo[7]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[8] z_5X-3Y_temp2[8] z_5X-3Y_Bo[8]
+-1 1
+1- 1
+
+.names z_5X-3Y_temp1[9] z_5X-3Y_temp2[9] z_5X-3Y_Bo[9]
+-1 1
+1- 1
+
+.names zero x_5X[0] one z_5X-3Y_notA[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[10] one z_5X-3Y_notA[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[11] one z_5X-3Y_notA[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[12] one z_5X-3Y_notA[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[13] one z_5X-3Y_notA[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[14] one z_5X-3Y_notA[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[15] one z_5X-3Y_notA[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[16] one z_5X-3Y_notA[16]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[17] one z_5X-3Y_notA[17]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[18] one z_5X-3Y_notA[18]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[1] one z_5X-3Y_notA[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[2] one z_5X-3Y_notA[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[3] one z_5X-3Y_notA[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[4] one z_5X-3Y_notA[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[5] one z_5X-3Y_notA[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[6] one z_5X-3Y_notA[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[7] one z_5X-3Y_notA[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[8] one z_5X-3Y_notA[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero x_5X[9] one z_5X-3Y_notA[9]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[0] one z_5X-3Y_notAxorB[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[10] one z_5X-3Y_notAxorB[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[11] one z_5X-3Y_notAxorB[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[12] one z_5X-3Y_notAxorB[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[13] one z_5X-3Y_notAxorB[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[14] one z_5X-3Y_notAxorB[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[15] one z_5X-3Y_notAxorB[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[16] one z_5X-3Y_notAxorB[16]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[17] one z_5X-3Y_notAxorB[17]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[18] one z_5X-3Y_notAxorB[18]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[1] one z_5X-3Y_notAxorB[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[2] one z_5X-3Y_notAxorB[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[3] one z_5X-3Y_notAxorB[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[4] one z_5X-3Y_notAxorB[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[5] one z_5X-3Y_notAxorB[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[6] one z_5X-3Y_notAxorB[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[7] one z_5X-3Y_notAxorB[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[8] one z_5X-3Y_notAxorB[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_AxorB[9] one z_5X-3Y_notAxorB[9]
+001 1
+010 1
+100 1
+111 1
+
+.names zero z_5X-3Y_notAxorB[0] z_5X-3Y_temp1[0]
+11 1
+
+.names z_5X-3Y_Bo[9] z_5X-3Y_notAxorB[10] z_5X-3Y_temp1[10]
+11 1
+
+.names z_5X-3Y_Bo[10] z_5X-3Y_notAxorB[11] z_5X-3Y_temp1[11]
+11 1
+
+.names z_5X-3Y_Bo[11] z_5X-3Y_notAxorB[12] z_5X-3Y_temp1[12]
+11 1
+
+.names z_5X-3Y_Bo[12] z_5X-3Y_notAxorB[13] z_5X-3Y_temp1[13]
+11 1
+
+.names z_5X-3Y_Bo[13] z_5X-3Y_notAxorB[14] z_5X-3Y_temp1[14]
+11 1
+
+.names z_5X-3Y_Bo[14] z_5X-3Y_notAxorB[15] z_5X-3Y_temp1[15]
+11 1
+
+.names z_5X-3Y_Bo[15] z_5X-3Y_notAxorB[16] z_5X-3Y_temp1[16]
+11 1
+
+.names z_5X-3Y_Bo[16] z_5X-3Y_notAxorB[17] z_5X-3Y_temp1[17]
+11 1
+
+.names z_5X-3Y_Bo[17] z_5X-3Y_notAxorB[18] z_5X-3Y_temp1[18]
+11 1
+
+.names z_5X-3Y_Bo[0] z_5X-3Y_notAxorB[1] z_5X-3Y_temp1[1]
+11 1
+
+.names z_5X-3Y_Bo[1] z_5X-3Y_notAxorB[2] z_5X-3Y_temp1[2]
+11 1
+
+.names z_5X-3Y_Bo[2] z_5X-3Y_notAxorB[3] z_5X-3Y_temp1[3]
+11 1
+
+.names z_5X-3Y_Bo[3] z_5X-3Y_notAxorB[4] z_5X-3Y_temp1[4]
+11 1
+
+.names z_5X-3Y_Bo[4] z_5X-3Y_notAxorB[5] z_5X-3Y_temp1[5]
+11 1
+
+.names z_5X-3Y_Bo[5] z_5X-3Y_notAxorB[6] z_5X-3Y_temp1[6]
+11 1
+
+.names z_5X-3Y_Bo[6] z_5X-3Y_notAxorB[7] z_5X-3Y_temp1[7]
+11 1
+
+.names z_5X-3Y_Bo[7] z_5X-3Y_notAxorB[8] z_5X-3Y_temp1[8]
+11 1
+
+.names z_5X-3Y_Bo[8] z_5X-3Y_notAxorB[9] z_5X-3Y_temp1[9]
+11 1
+
+.names z_5X-3Y_notA[0] y_3Y[0] z_5X-3Y_temp2[0]
+11 1
+
+.names z_5X-3Y_notA[10] y_3Y[10] z_5X-3Y_temp2[10]
+11 1
+
+.names z_5X-3Y_notA[11] y_3Y[11] z_5X-3Y_temp2[11]
+11 1
+
+.names z_5X-3Y_notA[12] y_3Y[12] z_5X-3Y_temp2[12]
+11 1
+
+.names z_5X-3Y_notA[13] y_3Y[13] z_5X-3Y_temp2[13]
+11 1
+
+.names z_5X-3Y_notA[14] y_3Y[14] z_5X-3Y_temp2[14]
+11 1
+
+.names z_5X-3Y_notA[15] y_3Y[15] z_5X-3Y_temp2[15]
+11 1
+
+.names z_5X-3Y_notA[16] y_3Y[16] z_5X-3Y_temp2[16]
+11 1
+
+.names z_5X-3Y_notA[17] y_3Y[17] z_5X-3Y_temp2[17]
+11 1
+
+.names z_5X-3Y_notA[18] y_3Y[18] z_5X-3Y_temp2[18]
+11 1
+
+.names z_5X-3Y_notA[1] y_3Y[1] z_5X-3Y_temp2[1]
+11 1
+
+.names z_5X-3Y_notA[2] y_3Y[2] z_5X-3Y_temp2[2]
+11 1
+
+.names z_5X-3Y_notA[3] y_3Y[3] z_5X-3Y_temp2[3]
+11 1
+
+.names z_5X-3Y_notA[4] y_3Y[4] z_5X-3Y_temp2[4]
+11 1
+
+.names z_5X-3Y_notA[5] y_3Y[5] z_5X-3Y_temp2[5]
+11 1
+
+.names z_5X-3Y_notA[6] y_3Y[6] z_5X-3Y_temp2[6]
+11 1
+
+.names z_5X-3Y_notA[7] y_3Y[7] z_5X-3Y_temp2[7]
+11 1
+
+.names z_5X-3Y_notA[8] y_3Y[8] z_5X-3Y_temp2[8]
+11 1
+
+.names z_5X-3Y_notA[9] y_3Y[9] z_5X-3Y_temp2[9]
+11 1
+
+.names zero
+
+.end

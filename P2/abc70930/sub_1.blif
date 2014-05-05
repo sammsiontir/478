@@ -1,0 +1,41 @@
+.model subtractor
+
+.inputs a[0] b[0] 
+
+.outputs s[0] 
+
+.names ONE
+1
+
+.names ZERO
+
+.names b[0] ONE ZERO b_bar[0]
+111 1
+100 1
+010 1
+001 1
+
+.names sub5_node_a[0] s[0]
+1 1
+
+.names ONE b_bar[0] sub1_node_b[0]
+-1 1
+1- 1
+
+.names ONE b_bar[0] sub2_node_b[0]
+11 1
+
+.names sub1_node_b[0] a[0] sub3_node_a[0]
+11 1
+
+.names sub3_node_a[0] sub2_node_b[0] sub4_node_a[0]
+-1 1
+1- 1
+
+.names a[0] b_bar[0] ONE sub5_node_a[0]
+111 1
+100 1
+010 1
+001 1
+
+.end

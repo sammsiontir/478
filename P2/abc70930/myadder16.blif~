@@ -1,0 +1,362 @@
+.model adder
+
+.inputs a[0] a[10] a[11] a[12] a[13] a[14] a[15] a[1] a[2] a[3] a[4] a[5] a[6] a[7] a[8] a[9] b[0] b[10] b[11] b[12] b[13] b[14] b[15] b[1] b[2] b[3] b[4] b[5] b[6] b[7] b[8] b[9] cin 
+
+.outputs s[0] s[10] s[11] s[12] s[13] s[14] s[15] s[1] s[2] s[3] s[4] s[5] s[6] s[7] s[8] s[9] cout
+
+.names s_AB[0] s_ciAxorB[0] c[0]
+-1 1
+1- 1
+
+.names s_AB[10] s_ciAxorB[10] c[10]
+-1 1
+1- 1
+
+.names s_AB[11] s_ciAxorB[11] c[11]
+-1 1
+1- 1
+
+.names s_AB[12] s_ciAxorB[12] c[12]
+-1 1
+1- 1
+
+.names s_AB[13] s_ciAxorB[13] c[13]
+-1 1
+1- 1
+
+.names s_AB[14] s_ciAxorB[14] c[14]
+-1 1
+1- 1
+
+.names s_AB[1] s_ciAxorB[1] c[1]
+-1 1
+1- 1
+
+.names s_AB[2] s_ciAxorB[2] c[2]
+-1 1
+1- 1
+
+.names s_AB[3] s_ciAxorB[3] c[3]
+-1 1
+1- 1
+
+.names s_AB[4] s_ciAxorB[4] c[4]
+-1 1
+1- 1
+
+.names s_AB[5] s_ciAxorB[5] c[5]
+-1 1
+1- 1
+
+.names s_AB[6] s_ciAxorB[6] c[6]
+-1 1
+1- 1
+
+.names s_AB[7] s_ciAxorB[7] c[7]
+-1 1
+1- 1
+
+.names s_AB[8] s_ciAxorB[8] c[8]
+-1 1
+1- 1
+
+.names s_AB[9] s_ciAxorB[9] c[9]
+-1 1
+1- 1
+
+.names s_AB[15] s_ciAxorB[15] cout
+-1 1
+1- 1
+
+.names a[0] b[0] cin s[0]
+001 1
+010 1
+100 1
+111 1
+
+.names a[10] b[10] c[9] s[10]
+001 1
+010 1
+100 1
+111 1
+
+.names a[11] b[11] c[10] s[11]
+001 1
+010 1
+100 1
+111 1
+
+.names a[12] b[12] c[11] s[12]
+001 1
+010 1
+100 1
+111 1
+
+.names a[13] b[13] c[12] s[13]
+001 1
+010 1
+100 1
+111 1
+
+.names a[14] b[14] c[13] s[14]
+001 1
+010 1
+100 1
+111 1
+
+.names a[15] b[15] c[14] s[15]
+001 1
+010 1
+100 1
+111 1
+
+.names a[1] b[1] c[0] s[1]
+001 1
+010 1
+100 1
+111 1
+
+.names a[2] b[2] c[1] s[2]
+001 1
+010 1
+100 1
+111 1
+
+.names a[3] b[3] c[2] s[3]
+001 1
+010 1
+100 1
+111 1
+
+.names a[4] b[4] c[3] s[4]
+001 1
+010 1
+100 1
+111 1
+
+.names a[5] b[5] c[4] s[5]
+001 1
+010 1
+100 1
+111 1
+
+.names a[6] b[6] c[5] s[6]
+001 1
+010 1
+100 1
+111 1
+
+.names a[7] b[7] c[6] s[7]
+001 1
+010 1
+100 1
+111 1
+
+.names a[8] b[8] c[7] s[8]
+001 1
+010 1
+100 1
+111 1
+
+.names a[9] b[9] c[8] s[9]
+001 1
+010 1
+100 1
+111 1
+
+.names a[0] b[0] s_AB[0]
+11 1
+
+.names a[10] b[10] s_AB[10]
+11 1
+
+.names a[11] b[11] s_AB[11]
+11 1
+
+.names a[12] b[12] s_AB[12]
+11 1
+
+.names a[13] b[13] s_AB[13]
+11 1
+
+.names a[14] b[14] s_AB[14]
+11 1
+
+.names a[15] b[15] s_AB[15]
+11 1
+
+.names a[1] b[1] s_AB[1]
+11 1
+
+.names a[2] b[2] s_AB[2]
+11 1
+
+.names a[3] b[3] s_AB[3]
+11 1
+
+.names a[4] b[4] s_AB[4]
+11 1
+
+.names a[5] b[5] s_AB[5]
+11 1
+
+.names a[6] b[6] s_AB[6]
+11 1
+
+.names a[7] b[7] s_AB[7]
+11 1
+
+.names a[8] b[8] s_AB[8]
+11 1
+
+.names a[9] b[9] s_AB[9]
+11 1
+
+.names zero a[0] b[0] s_AxorB[0]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[10] b[10] s_AxorB[10]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[11] b[11] s_AxorB[11]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[12] b[12] s_AxorB[12]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[13] b[13] s_AxorB[13]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[14] b[14] s_AxorB[14]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[15] b[15] s_AxorB[15]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[1] b[1] s_AxorB[1]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[2] b[2] s_AxorB[2]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[3] b[3] s_AxorB[3]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[4] b[4] s_AxorB[4]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[5] b[5] s_AxorB[5]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[6] b[6] s_AxorB[6]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[7] b[7] s_AxorB[7]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[8] b[8] s_AxorB[8]
+001 1
+010 1
+100 1
+111 1
+
+.names zero a[9] b[9] s_AxorB[9]
+001 1
+010 1
+100 1
+111 1
+
+.names cin s_AxorB[0] s_ciAxorB[0]
+11 1
+
+.names c[9] s_AxorB[10] s_ciAxorB[10]
+11 1
+
+.names c[10] s_AxorB[11] s_ciAxorB[11]
+11 1
+
+.names c[11] s_AxorB[12] s_ciAxorB[12]
+11 1
+
+.names c[12] s_AxorB[13] s_ciAxorB[13]
+11 1
+
+.names c[13] s_AxorB[14] s_ciAxorB[14]
+11 1
+
+.names c[14] s_AxorB[15] s_ciAxorB[15]
+11 1
+
+.names c[0] s_AxorB[1] s_ciAxorB[1]
+11 1
+
+.names c[1] s_AxorB[2] s_ciAxorB[2]
+11 1
+
+.names c[2] s_AxorB[3] s_ciAxorB[3]
+11 1
+
+.names c[3] s_AxorB[4] s_ciAxorB[4]
+11 1
+
+.names c[4] s_AxorB[5] s_ciAxorB[5]
+11 1
+
+.names c[5] s_AxorB[6] s_ciAxorB[6]
+11 1
+
+.names c[6] s_AxorB[7] s_ciAxorB[7]
+11 1
+
+.names c[7] s_AxorB[8] s_ciAxorB[8]
+11 1
+
+.names c[8] s_AxorB[9] s_ciAxorB[9]
+11 1
+
+.names zero
+1
+
+.end

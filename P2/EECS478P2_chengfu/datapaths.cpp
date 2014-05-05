@@ -1,0 +1,140 @@
+#include "circuit.h"
+
+int Circuit::createABSMIN5X3YModule(const string &input1, const string &input2, const string &output)
+{
+  Node* node;
+  //////////////////////////////////////////////
+  // create input/output nodes
+  //////////////////////////////////////////////
+  for (unsigned int i = 0; i < 19; ++i)
+  {
+    string name;
+    stringstream sstr;
+    sstr << i;
+    // input 1
+    name = input1 + "[" + sstr.str() + "]";
+    node = createNode(name);
+    // input 2
+    name = input2 + "[" + sstr.str() + "]";
+    node = createNode(name);
+    // output
+    name = output + "[" + sstr.str() + "]";
+    node = createNode(name);
+
+    // zero
+    name =  "ZERO_19[" + sstr.str() + "]";
+    node = createNode(name);
+    createZERONode(node);
+  }
+  // sign extension
+  for (unsigned int i = 16; i < 19; ++i){
+    string name;
+    stringstream sstr;
+    sstr << i;
+    // input 1
+    // MSB of input1
+    name = input1 + "[15]";
+    Node* inNode1_MSB = findNode(name);
+    assert(inNode1_MSB != NULL);
+    // extend
+    name = input1 + "[" + sstr.str() + "]";
+    Node* inNode1 = findNode(name);
+    assert(inNode1 != NULL);
+    createBUF1Node(inNode1_MSB, inNode1);
+    // input 2
+    // MSB of input2
+    name = input2 + "[15]";
+    Node* inNode2_MSB = findNode(name);
+    assert(inNode2_MSB != NULL);
+    // extend
+    name = input2 + "[" + sstr.str() + "]";
+    Node* inNode2 = findNode(name);
+    assert(inNode2 != NULL);
+    createBUF1Node(inNode2_MSB, inNode2);
+  }
+
+  Node* zero_node = createNode("ZERO");
+  createZERONode(zero_node);
+
+  //////////////////////////////////////////////
+  // generate 5X and 3Y
+  //////////////////////////////////////////////
+  // 5X
+  createSHIFTModule(input1, input1+"_4X", 19, 2);
+  createADDModule(input1, input1+"_4X", "ZERO", input1+"_5X", input1+"_cout", 19);
+  // 3Y
+  createSHIFTModule(input2, input2+"_2Y", 19, 1);
+  createADDModule(input2, input2+"_2Y", "ZERO", input2+"_3Y", input2+"_cout", 19);
+
+  //////////////////////////////////////////////
+  // generate -5X and -3Y
+  //////////////////////////////////////////////
+  // -5X
+  createSUBModule("ZERO_19", input1+"_5X", input1+"_-5X", 19);
+  // -3Y
+  createSUBModule("ZERO_19", input2+"_3Y", input2+"_-3Y", 19);
+
+  //////////////////////////////////////////////
+  // generate 5X-3Y
+  //////////////////////////////////////////////
+  createSUBModule(input1+"_5X", input2+"_3Y", output+"_5X-3Y", 19);
+
+  //////////////////////////////////////////////
+  // Use mux to select output
+  // generate select control signal
+  // needs msb of (5X or 3Y), 5X-3Y
+  //////////////////////////////////////////////
+  Node* msb_5Xs3Y = findNode(output+"_5X-3Y[18]");
+  assert(msb_5Xs3Y != NULL);
+
+  Node* msb_5X = findNode(input1+"_5X[18]");
+  assert(msb_5X != NULL);
+
+  Node* msb_3Y = findNode(input2+"_3Y[18]");
+  assert(msb_3Y != NULL);
+  // assign sel1 = (5X or 3Y)
+  Node* select1 = createNode("sel1");
+  createOR2Node(msb_5X, msb_3Y, select1);
+  // assign sel2 = 5X-3Y
+  Node* select2 = createNode("sel2");
+  createBUF1Node(msb_5Xs3Y, select2);
+
+  //////////////////////////////////////////////
+  // MUX
+  // sel1 sel2  out
+  //    0    0   3y
+  //    0    1   5x
+  //    1    0  -3y
+  //    1    1  -5x
+  //////////////////////////////////////////////
+  for (unsigned int i = 0; i < 19; ++i){
+    string name;
+    stringstream sstr;
+    sstr << i;
+    // find output[i]
+    name = output + "[" + sstr.str() + "]";
+    Node* outNode = findNode(name);
+    assert(outNode != NULL);
+    // find 5X[i]
+    name = input1+"_5X[" + sstr.str() + "]";
+    Node* input1_5XNode = findNode(name);
+    assert(input1_5XNode != NULL);
+    // find 3Y[i]
+    name = input2+"_3Y[" + sstr.str() + "]";
+    Node* input2_3YNode = findNode(name);
+    assert(input2_3YNode != NULL);
+    // find -5X[i]
+    name = input1+"_-5X[" + sstr.str() + "]";
+    Node* input1_m5XNode = findNode(name);
+    assert(input1_m5XNode != NULL);
+    // find -3Y[i]
+    name = input2+"_-3Y[" + sstr.str() + "]";
+    Node* input2_m3YNode = findNode(name);
+    assert(input2_m3YNode != NULL);
+
+    createMUX4Node(select2, select1, input2_3YNode, input1_5XNode, input2_m3YNode, input1_m5XNode, outNode);
+  }
+  
+  return 0;
+}
+
