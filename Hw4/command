@@ -1,0 +1,20 @@
+P3
+caen-vnc01% ./abc
+UC Berkeley, ABC 1.01 (compiled Mar 20 2013 23:44:40)
+abc 01> read_pla M33.pla
+abc 02> espresso                                                               
+abc 03> write_pla M33_SOP.pla
+abc 03> quit                                                                   
+
+P4
+abc 01> read_pla M33.pla
+abc 02> espresso                                                               
+abc 03> strash
+abc 04> rewrite -z
+abc 05> refactor                                                               
+abc 06> rewrite -z                                                             
+abc 07> iresyn                                                                 
+abc 08> print_stats
+M33          : i/o =    6/   6  lat =    0  and =    57 (exor = 1)  lev =   7
+abc 08> write_blif M33_Multi.blif
+
