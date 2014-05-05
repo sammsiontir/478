@@ -1,0 +1,162 @@
+
+-------------------------
+Project 1: BDDs.
+
+A valid boolean expression consists of
+(1) single character vars, and 
+(2) AND, OR, NOT and parenthesis
+
+ example: (a & !b | !a & b) & c
+-------------------------
+
+Choose a print mode: (v)erbose, (n)on-verbose
+
+Enter a boolean expression:
+in bdd form:
+a 4
+ |__b 3
+ |  |__1
+ |  |__0
+ |__0
+
+
+probability: 0.25
+
+current state of tables:
+
+computed_table:
+{and,   2,   3}  -->  4
+
+unique_table:
+{a,   0,   1}  -->  2
+{a,   0,   3}  -->  4
+{b,   0,   1}  -->  3
+
+Would you like to...
+
+(a)pply an operation with another bdd?									
+(n)egative cofactor? 
+(p)ositive cofactor? 									
+(b)oolean difference? 
+(s)ort by influence?                                     
+(q)uit
+
+Enter a single character variable: 
+result:
+a 2
+ |__1
+ |__0
+
+
+probability: 0.5
+
+current state of tables:
+
+computed_table:
+{and,   2,   3}  -->  4
+
+unique_table:
+{a,   0,   1}  -->  2
+{a,   0,   3}  -->  4
+{b,   0,   1}  -->  3
+
+Would you like to...
+
+(a)pply an operation with another bdd?									
+(n)egative cofactor? 
+(p)ositive cofactor? 									
+(b)oolean difference? 
+(s)ort by influence?                                     
+(q)uit
+
+Enter a boolean expression:
+in bdd form:
+b 6
+ |__c 5
+ |  |__1
+ |  |__0
+ |__0
+
+
+probability: 0.25
+
+
+choose one of the following operations:
+ - and
+ - or
+ - xor
+
+result:
+a 7
+ |__1
+ |__b 6
+    |__c 5
+    |  |__1
+    |  |__0
+    |__0
+
+
+probability: 0.625
+
+current state of tables:
+
+computed_table:
+{and,   2,   3}  -->  4
+{and,   3,   5}  -->  6
+{ or,   2,   6}  -->  7
+
+unique_table:
+{a,   0,   1}  -->  2
+{a,   0,   3}  -->  4
+{a,   6,   1}  -->  7
+{b,   0,   1}  -->  3
+{b,   0,   5}  -->  6
+{c,   0,   1}  -->  5
+
+Would you like to...
+
+(a)pply an operation with another bdd?									
+(n)egative cofactor? 
+(p)ositive cofactor? 									
+(b)oolean difference? 
+(s)ort by influence?                                     
+(q)uit
+
+Enter a single character variable: 
+result:
+a 9
+ |__0
+ |__b 3
+    |__1
+    |__0
+
+
+probability: 0.25
+
+current state of tables:
+
+computed_table:
+{and,   2,   3}  -->  4
+{and,   3,   5}  -->  6
+{ or,   2,   6}  -->  7
+{xor,   2,   8}  -->  9
+
+unique_table:
+{a,   0,   1}  -->  2
+{a,   0,   3}  -->  4
+{a,   3,   0}  -->  9
+{a,   3,   1}  -->  8
+{a,   6,   1}  -->  7
+{b,   0,   1}  -->  3
+{b,   0,   5}  -->  6
+{c,   0,   1}  -->  5
+
+Would you like to...
+
+(a)pply an operation with another bdd?									
+(n)egative cofactor? 
+(p)ositive cofactor? 									
+(b)oolean difference? 
+(s)ort by influence?                                     
+(q)uit
+

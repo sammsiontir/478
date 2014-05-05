@@ -1,0 +1,13 @@
+EECS 478 Project1 
+Cheng-Fu Lin
+
+The "apply" is the basic function of constructing whole program. By using recursive algorithm, we can compute two BDD by certain operation. The second part is "negative_cofactor" and "positive_cofactor". Here we realize the Boole-Shannon Expansion Theorem in two functions. "negative_cofactor" generates negative cofactor of certain BDD np and "positive_cofactor" generates positive cofactor of certain BDD np. Boolean Difference is defined as a XOR of positive and negative cofactors and we realize it by a function called "boolean_difference". In sort_by_influence, we compute influence of each variable. I create a class varList to store variables and probabilities. Also I need a compare function for the sort function in STL.
+
+
+Bonus Question
+No, we can not get a more efficient order by influence value. 
+This problem is a NP-complete question. There is no algorithm can slove this question. 
+It's obvious in an example provide in homework 3. Take problem 3 as an example, the highest influence of this BDD is Z and the lowest influence is Y. However, we can not find a smaller BDD in descent or ascend order.
+Though in some case, we can get a smaller BDD. However, it not a general solution. In view of this, the answer is no.
+
+
